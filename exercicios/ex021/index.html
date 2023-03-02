@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exmplos de pseudoelementos</title>
+
+    <style>
+
+        a{
+            color: blueviolet;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: aqua;
+            text-decoration: underline;
+        }
+
+        .importante::after{
+            content: ' <=';
+            color: blueviolet;
+            font-weight: bold;
+        }
+
+        .importante::before{
+            content: '=>';
+            font-weight: bold;
+            color: blueviolet;
+        }
+
+        a:active{
+            color: rgb(58, 78, 26);
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo elementos</h1>
+    <ul>
+        <li class="importante"><a href="https://youtube.com.br">Link do Youtube</a></li>
+        <li><a href="https://google.com.br">Link do Google</a></li>
+        <li><a href="https://facebook.com.br">Link do Facebook</a></li>
+    </ul>
+
+    <ol>
+        <li><a href="https://instagram.com.br">link do instagram</a></li>
+        <li><a href="https://tronce.com.br">Link da TRON</a></li>
+    </ol>
+</body>
+</html>
