@@ -36,7 +36,7 @@
 }
 
 body{
-    background-color: var(--cor0);
+    background-image: url('../imagens/wallpaper_matrix02.jpg');
     font-family: var(--fonte-padrao);
 
 }
