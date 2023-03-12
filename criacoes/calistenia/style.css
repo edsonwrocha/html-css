@@ -1,0 +1,44 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: 'DaStreets';
+    src: url(fontes/Da\ Streets.ttf) format('opentype');
+}
+
+:root{
+    --cor0: #262324;
+    --cor1: #87898C;
+    --cor2: #735939;
+    --cor3: #BFACA4;
+    --cor4: #59433E;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('imagens/grafitte.jpg');
+}
+
+header{
+    height: 200px;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: 'DaStreets', 'cursive';
+    text-align: center;
+    padding-top: 50px;
+    font-size: 65px;
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    padding: 20px;
+}
