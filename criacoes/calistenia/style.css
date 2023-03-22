@@ -109,10 +109,16 @@ main >p{
     padding: 5px;
 }
 
-main >picture{
-    display: block;
-    text-align: center;
+main img{
+    width: 100%;
 }
+
+main img.pequena{
+    max-width: 350px; 
+    display: block;
+    margin: auto;
+}
+
 footer{
     background-color: #262324;
     color: white;
