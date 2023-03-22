@@ -29,7 +29,7 @@ body{
 }
 
 header{
-    height: 200px;
+    min-height: 200px;
     background-color: black;
 }
 
@@ -67,7 +67,7 @@ h1{
 main{
     background-color: white;
     max-width: 800px;
-    min-width: 300px;
+    min-width: 250px;
     margin: auto;
     padding: 20px;
 }
