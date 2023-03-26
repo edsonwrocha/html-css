@@ -1,54 +1,35 @@
-@charset "UTF-8";
+@charset "UTF-08";
 
 *{
     margin: 0px;
     padding: 0px;
-}
-
-body{
-    background-color: lightgreen;
 }
 main{
     max-width: 500px;
     margin: auto;
 }
 
-div{
-    height: 400px;
+p{
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
 }
 
-p{
-    background-color: white;
-    height: 150px;
+div.bg1{
+    min-height: 250px;
+    background-image: url('imagens/arvore.jpg');
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: ;
     
 }
 
-div.container01{
-    position: relative;
-}
-div.box1{
-    background-image: url('imagens/arvore.jpg');
-    background-position: top center;
-    background-attachment: fixed;
-    position: absolute;
-    top: 0px;
-}
-
-div.container02{
-    position: relative;;
-}
-
-div.box2{
-    background-image: url('imagens/stonehenge.jpg');
-    background-position: center center;
-    background-attachment: fixed;
-    position: absolute;
-
-}
-
-div.box3{
+div.bg2{
+    min-height: 250px;
     background-image: url('imagens/peace.jpg');
-    background-position: top center;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: ;
+    
 }
