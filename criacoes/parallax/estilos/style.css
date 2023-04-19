@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+main{
+    width: 70vw;
+    margin: auto;
+}
+
+main > h1{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+main > p{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+section{
+    height: 400px;
+}
+
+section > p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 15px;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+section.imagem > p{
+    background-color: rgba(128, 128, 128, 0.486);
+    text-shadow: 1px 0px 1px 1px solid black;
+}
+section#img01{
+    background-image: url('../imagens/cidade.jpg');
+    color: white;
+}
+
+section#img02{
+    background-image: url('../imagens/passaros.jpg');
+}
+
+section#img03{
+    background-image: url('../imagens/cafe.jpg');
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
